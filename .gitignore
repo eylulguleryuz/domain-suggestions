@@ -1,0 +1,25 @@
+# Ignore generated domain lists
+promptA_generated_domains.csv
+promptB_generated_domains.csv
+promptC_generated_domains.csv
+finetuned_generated_domains.csv
+
+# Ignore environment variables/secrets
+*.env
+.env.*
+!export OPENAI_API_KEY="[KEY HERE]" # This line specifically from your notebook should not be committed as-is
+
+# Ignore Python compiled files
+__pycache__/
+*.pyc
+
+# Ignore Jupyter Notebook checkpoints and editor metadata
+.ipynb_checkpoints/
+.vscode/
+.idea/
+
+# Ignore Colab-specific files if any are generated outside .ipynb
+
+# Ignore other common generated files
+*.log
+*.tmp
