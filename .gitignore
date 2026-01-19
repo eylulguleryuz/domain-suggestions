@@ -1,13 +1,6 @@
-# Ignore generated domain lists
-promptA_generated_domains.csv
-promptB_generated_domains.csv
-promptC_generated_domains.csv
-finetuned_generated_domains.csv
-
 # Ignore environment variables/secrets
 *.env
 .env.*
-!export OPENAI_API_KEY="[KEY HERE]" # This line specifically from your notebook should not be committed as-is
 
 # Ignore Python compiled files
 __pycache__/
